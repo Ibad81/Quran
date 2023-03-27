@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(128, 250, 128);
+    background-color: rgb(77, 210, 77);
 }
 
 h1{
@@ -16,16 +16,16 @@ h1{
 }
 .container{
     text-align: center;
-    background-color: rgba(163, 248, 72, 0.345);
+    background-color: rgba(94, 162, 22, 0.345);
     margin: auto;
     width: 50%;
     height: max-content;
     max-height: 90%;
-    border: 3px solid green;
+    border: 3px solid rgb(2, 136, 2);
     padding: 10px;
 
 }
 a{
     text-decoration: none;
-    color: green;
+    color: rgb(1, 70, 1);
 }
