@@ -5,15 +5,28 @@
 }
 
 body{
-    background-color: rgb(77, 210, 77);
+    background-color: rgb(19, 229, 19);
 }
 
 h1{
     text-align: center;
     padding: 100px;
+    color: rgb(1, 28, 1);
+    animation: animate 1.5s linear infinite;
 
     
 }
+@keyframes animate{
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 08;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
 .container{
     text-align: center;
     background-color: rgba(94, 162, 22, 0.345);
@@ -23,9 +36,14 @@ h1{
     max-height: 90%;
     border: 3px solid rgb(2, 136, 2);
     padding: 10px;
+    box-shadow: 10px 10px 35px rgb(0,0,0,0.6);
 
 }
 a{
     text-decoration: none;
     color: rgb(1, 70, 1);
+
+}
+h3{
+    padding: 3px;
 }
